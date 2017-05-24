@@ -1,0 +1,6 @@
+wcs_coav:
+    resource: "@WCSCoavBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+
