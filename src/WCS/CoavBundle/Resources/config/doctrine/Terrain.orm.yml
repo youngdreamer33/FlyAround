@@ -15,7 +15,7 @@ WCS\CoavBundle\Entity\Terrain:
         icao:
             type: string
             length: '4'
-        lattitue:
+        latitude:
             type: float
         longitude:
             type: float

@@ -23,7 +23,7 @@ class Terrain
     /**
      * @var float
      */
-    private $lattitue;
+    private $latitude;
     /**
      * @var float
      */
@@ -88,26 +88,7 @@ class Terrain
         return $this->icao;
     }
     /**
-     * Set lattitue
-     *
-     * @param float $lattitue
-     *
-     * @return Terrain
-     */
-    public function setLattitue($lattitue)
-    {
-        $this->lattitue = $lattitue;
-        return $this;
-    }
-    /**
-     * Get lattitue
-     *
-     * @return float
-     */
-    public function getLattitue()
-    {
-        return $this->lattitue;
-    }
+
     /**
      * Set longitude
      *
@@ -246,5 +227,29 @@ class Terrain
     public function getArrivals()
     {
         return $this->arrivals;
+    }
+
+    /**
+     * Set latitude
+     *
+     * @param float $latitude
+     *
+     * @return Terrain
+     */
+    public function setLatitude($latitude)
+    {
+        $this->latitude = $latitude;
+
+        return $this;
+    }
+
+    /**
+     * Get latitude
+     *
+     * @return float
+     */
+    public function getLatitude()
+    {
+        return $this->latitude;
     }
 }
